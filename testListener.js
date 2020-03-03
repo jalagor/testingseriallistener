@@ -1,3 +1,4 @@
+const fetch = require("node-fetch");
 const SerialPort = require('serialport');
 const Readline = SerialPort.parsers.Readline
 const parser = new Readline()
