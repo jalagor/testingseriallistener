@@ -11,7 +11,7 @@ myPort.on('open', onOpen)
 // myPort.on('data', onData)
 
 function onOpen(){
-    console.log('oper connection')
+    console.log('open connection')
 }
 parser.on('data', (data)=> { postBPM(data) } )
 
