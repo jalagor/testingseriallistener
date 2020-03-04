@@ -20,7 +20,7 @@ function onOpen(){
 parser.on('data', (data)=> { postBPM(data) } )
 
 function postBPM(number){
-    fetch('http://localhost:3000/heartrates', {
+    fetch('https://vrelaxation-backend.herokuapp.com/heartrates', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
